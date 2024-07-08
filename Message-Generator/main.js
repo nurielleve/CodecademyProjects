@@ -6,3 +6,4 @@ const messageGenerator = () => {
     console.log("One activity you can do is " + activity + ".");
 }
 
+messageGenerator();
