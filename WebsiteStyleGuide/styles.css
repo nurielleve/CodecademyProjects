@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica";
+}
+
+h1 {
+    font-family:"Holtwood One SC", serif;
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-left: 10px;
+}
+
+
+h2 {
+    font-family:"Holtwood One SC", serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.Colors {
+    border: 1px solid;
+    margin: 20px 20px;
+    display: flex;
+}
+
+.BabyRose {
+    display: inline-block;
+    background-color: #ff87d7;
+    padding: 10px 40px;
+    margin: 20px;
+    flex-basis: 100%;
+    text-align: center;
+
+}
+
+.EerieBlack {
+    display: inline-block;
+    color: white;
+    background-color: #222222;
+    padding: 10px 40px;
+    margin: 20px;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.SeaGreen {
+    display: inline-block;
+    background-color: #5b8c5a;
+    padding: 10px 40px;
+    margin: 20px;
+    flex-basis: 100%;
+    text-align: center;
+
+}
+
+.NaplesYellow {
+    display: inline-block;
+    background-color: #ffe066;
+    padding: 10px 40px;
+    margin: 20px;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+
+.Fonts {
+    border: 1px solid;
+    margin: 20px 20px;
+}
+
+.Textstyles {
+    border: 1px solid;
+    margin: 20px 20px;
+    overflow-x: auto;
+}
+
+.textstyle1 {
+    padding: 5px 5px;
+    margin-left: 10px;
+    
+}
+
+.textstyle2 {
+    padding: 5px 5px;
+    margin-left: 10px;
+}
+
+.textstyle3 {
+    padding: 5px 5px;
+    margin-left: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font1 {
+    font-family:"Rokkitt", serif;
+    margin-left: 10px;
+}
+
+.font2 {
+    font-family: "DM Sans", sans-serif;
+    margin-left: 10px;
+}
+
+.font3 {
+    font-family: "Bodoni Moda", serif;
+    margin-left: 10px;
+}
+
+#heading1 {
+    font-family: "DM Sans", serif;
+    font-weight: 1000;
+    letter-spacing: 0px;
+}
+
+#heading2 {
+    font-family: "Bodoni Moda", serif;
+    letter-spacing: 0px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#heading3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+}

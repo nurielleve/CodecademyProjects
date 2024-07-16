@@ -1,0 +1,129 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(33, 33, 33);
+    margin: auto;
+    text-align: center;
+}
+
+nav {
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(242, 242, 242);
+    float: right;
+}
+
+h1 {
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 700;
+    color: rgb(253, 252, 252);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    color: rgb(253, 252, 252);
+}
+
+h4 {
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+
+p {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+
+button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(232, 131, 45);
+    border-color: rgb(232, 131, 45);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.banner {
+    background-image: url(https://photos.tpn.to/ot/gf/mm/rm/653x490.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.container {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.box {
+    display: flex;
+    align-content: space-between;
+    flex-flow: column wrap;
+}
+
+.box1 {
+    background-image: url("https://lushpalm.com/wp-content/uploads/2017/09/surf-travel-16.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.whysurf {
+    font-family: "Red Hat Text", sans-serif;
+}
+
+.whysurf p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+
+}
+
+.Ad {
+    margin: auto;
+}
+
+#Ad {
+    font-family: "Red Hat Text", sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color:rgb(33, 33, 33);
+    text-align: center;
+}
+
+#caption {
+    color: rgb(253, 252, 252);
+    float: left;
+}
+
+#footer {
+    font-size: 14px;
+    color: rgb(33, 33, 33);
+}
