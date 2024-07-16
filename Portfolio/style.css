@@ -3,6 +3,7 @@ body {
     display: grid;
     grid-template-areas: "head main"
     "nav main";
+    grid-gap: 10px;
     background-color: #14646C;
     color: #F7F7F7;
     font-family: "Fjalla One", sans-serif;
@@ -34,14 +35,14 @@ a {
 main {
     grid-area: main;
     place-self: center;
+    margin: 10px;
 }
 
 h1 {
     font-size: 50px;
     font-family: "Fjalla One", sans-serif;
-    font-weight: 800;
+    font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 h2 {
@@ -64,4 +65,11 @@ p {
 i {
     font-size: 22px;
     padding: 0 5px;
+}
+
+span {
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: #36b8c4a1;
+    
 }
