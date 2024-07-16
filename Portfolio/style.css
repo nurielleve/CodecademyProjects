@@ -1,4 +1,67 @@
 body {
-    box-sizing: border-box;
     margin: 0 auto;
+    display: grid;
+    grid-template-areas: "head main"
+    "nav main";
+    background-color: #14646C;
+    color: #F7F7F7;
+    font-family: "Fjalla One", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+header {
+    grid-area: head;
+    place-self: center;
+    margin-top: 50px;
+} 
+
+nav {
+    font-size: 18px;
+    font-family: "Fjalla One", sans-serif;
+    
+}
+
+a {
+    color: #F7F7F7;
+    text-decoration: none;
+    text-transform: uppercase; 
+    padding: 10px 5px;
+    display: block;
+    letter-spacing: 0.5px;
+}
+
+
+main {
+    grid-area: main;
+    place-self: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    padding: 5px;
+    font-family: "Source Sans 3", serif;
+    letter-spacing: 0.3px;
+}
+
+i {
+    font-size: 22px;
+    padding: 0 5px;
 }
