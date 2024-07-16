@@ -36,7 +36,7 @@ a {
 main {
     grid-area: main;
     place-self: center;
-    margin: 10px;
+    margin: 100px 10px 10px 10px;
     max-width: 500px;
 }
 
@@ -76,3 +76,8 @@ span {
     background-color: #1C8C97;
     color: #FEFCFD;
 }
+
+img {
+    max-width: 300px;
+}
+
