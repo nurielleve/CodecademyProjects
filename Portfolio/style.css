@@ -5,7 +5,7 @@ body {
     "nav main";
     grid-gap: 10px;
     background-color: #14646C;
-    color: #F7F7F7;
+    color: #FEFCFD;
     font-family: "Fjalla One", sans-serif;
     letter-spacing: 0.5px;
 }
@@ -14,6 +14,7 @@ header {
     grid-area: head;
     place-self: center;
     margin-top: 50px;
+    max-width: 500px;
 } 
 
 nav {
@@ -23,12 +24,12 @@ nav {
 }
 
 a {
-    color: #F7F7F7;
+    color: #FEFCFD;
     text-decoration: none;
     text-transform: uppercase; 
-    padding: 10px 5px;
+    margin: 8px 5px;
     display: block;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
 }
 
 
@@ -36,6 +37,7 @@ main {
     grid-area: main;
     place-self: center;
     margin: 10px;
+    max-width: 500px;
 }
 
 h1 {
@@ -53,6 +55,7 @@ h2 {
 
 h3 {
     font-size: 20px;
+    color:#ffffff;
 }
 
 p {
@@ -69,7 +72,7 @@ i {
 
 span {
     border-radius: 20px;
-    padding: 5px 15px;
-    background-color: #36b8c4a1;
-    
+    padding: 5px 20px;
+    background-color: #1C8C97;
+    color: #FEFCFD;
 }
