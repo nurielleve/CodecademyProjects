@@ -13,7 +13,7 @@ body {
 header {
     grid-area: head;
     place-self: center;
-    margin-top: 50px;
+    margin: 100px 20px;
     max-width: 500px;
 } 
 
@@ -36,7 +36,7 @@ a {
 main {
     grid-area: main;
     place-self: center;
-    margin: 100px 10px 10px 10px;
+    margin: 100px 20px;
     max-width: 500px;
 }
 
@@ -79,5 +79,30 @@ span {
 
 img {
     max-width: 300px;
+    max-height: 300px;
 }
 
+.project {
+    margin: 40px 0px;
+}
+
+.container1 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.technologies {
+    margin-top: 20px;
+}
+
+.summary {
+    margin: 10px;
+}
+
+.horizontal_line {
+    width: 90%;
+    height: 5px;
+    border-top: 5px dotted #FEFCFD;
+    line-height: 80%;
+}
