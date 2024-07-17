@@ -25,6 +25,9 @@ nav {
 
 a {
     color: #FEFCFD;
+}
+
+.navbar {
     text-decoration: none;
     text-transform: uppercase; 
     margin: 8px 5px;
