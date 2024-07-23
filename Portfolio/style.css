@@ -3,7 +3,7 @@ body {
     display: grid;
     grid-template-areas: "head main"
     "nav main";
-    grid-gap: 10px;
+    grid-gap: 5px;
     background-color: #14646C;
     color: #FEFCFD;
     font-family: "Fjalla One", sans-serif;
@@ -13,18 +13,21 @@ body {
 header {
     grid-area: head;
     place-self: center;
-    margin: 100px 20px;
+    margin: 100px 20px 20px 20px;
     max-width: 500px;
 } 
 
 nav {
+    grid-area: nav;
     font-size: 18px;
     font-family: "Fjalla One", sans-serif;
+    margin: 20px 0;
     
 }
 
 a {
     color: #FEFCFD;
+    text-decoration: none;
 }
 
 .navbar {
@@ -39,7 +42,7 @@ a {
 main {
     grid-area: main;
     place-self: center;
-    margin: 100px 20px;
+    margin: 100px 20px 20px 20px;
     max-width: 500px;
 }
 
@@ -87,6 +90,7 @@ img {
 
 .project {
     padding: 20px 0px;
+    border-radius: 5%;
 }
 
 .container1 {
@@ -94,6 +98,7 @@ img {
     align-self: center;
     justify-content: center;
 }
+
 
 .technologies {
     margin-top: 20px;
@@ -110,6 +115,34 @@ img {
     line-height: 80%;
 }
 
-a:hover {
+.navbar:hover {
     color: #FF8C41;
+}
+
+i:hover {
+    color: #FF8C41;
+}
+
+.project:hover {
+    /*background-color: #51979F;*/
+    box-shadow: 12px 12px 3px #51979F;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        grid-template-areas: "head"
+        "nav"
+        "main";
+    }
+    .navbar {
+        display: inline;
+        margin: 0 10px;
+        
+    }
+    header {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
 }
