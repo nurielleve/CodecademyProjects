@@ -86,7 +86,7 @@ img {
 }
 
 .project {
-    margin: 40px 0px;
+    padding: 20px 0px;
 }
 
 .container1 {
@@ -108,4 +108,8 @@ img {
     height: 5px;
     border-top: 5px dotted #FEFCFD;
     line-height: 80%;
+}
+
+a:hover {
+    color: #FF8C41;
 }
