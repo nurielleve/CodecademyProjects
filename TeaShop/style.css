@@ -1,0 +1,71 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    background-color: black;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    margin: 10px;
+}
+
+a.navbar {
+    text-decoration: underline;
+}
+
+.banner {
+    height: 700px;
+    width: 1200px;
+}
+
+.teaOfTheMonth {
+    width: 1000px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1 1 300px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.locationBox {
+    max-width: 300px;
+    margin: 20px;
+}
+
+.footer {
+    height: 200px;
+}
+
+.copyright {
+    margin-left: 20px;
+    text-align: left;
+}
+
+#logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+#teapic {
+    max-width: 300px;
+}
