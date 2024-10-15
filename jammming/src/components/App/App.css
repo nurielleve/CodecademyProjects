@@ -28,14 +28,15 @@ h2 {
 
 .App {
   height: 100%;
-  padding: 0 17% 10% 17%;
-  background-image: url('./background_photo_desktop.jpg');
+  padding: 0 15% 10% 15%;
+  background-image: url('./backgroundImage.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   color: #fff;
+  opacity: 0.88;
 }
 
 .App-playlist {
